@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Poetry, Poetry, Poetry ... !</title>
+    <style>
+    body{
+      background-color: #003366;
+    }
+    #l1:link{
+      color:yellow;
+    }
+    #l1:visited{
+      color:green;
+    }
+    #l1:hover{
+      color:red;
+      text-shadow:none;
+    }
+    #l2:link{
+      color:yellow;
+    }
+    #l2:visited{
+      color:green;
+    }
+    #l2:hover{
+      color:red;
+      text-shadow:none;
+    }
+    #l3:link{
+      color:yellow;
+    }
+    #l3:visited{
+      color:green;
+    }
+    #l3:hover{
+      color:red;
+      text-shadow:none;
+    }
+
+    #i2{
+      position: absolute;
+      left: 0vw;
+      width: 64vw;
+      height: 140vh;
+      opacity: 0.2;
+      border-radius: 50px 50px 50px 1px;
+      z-index: 1;
+    }
+    #i3{
+      position: absolute;
+      left: 59vw;
+      width: 130vw;
+      height: 203vh;
+      opacity: 0.2;
+      border-radius: 50px 50px 50px 1px;
+      z-index: 1;
+    }
+    #i4{
+      position: absolute;
+      top: 800px;
+      left: 13vw;
+      width: 30vw;
+      height: 30vh;
+      opacity: 0.5;
+      border-radius: 50px 50px 50px 50px;
+      z-index: 1;
+    }
+    #i5{
+      position: absolute;
+      top: 300px;
+      left: 150vw;
+      width: 30vw;
+      height: 41vh;
+      opacity: 0.5;
+      border-radius: 50px 50px 50px 50px;
+      z-index: 10;
+    }
+    #s1{
+      text-transform: uppercase;
+      font-size: 30px;
+    }
+    #s2{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #s3{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #s4{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #s5{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #s6{
+      text-decoration: underline overline;
+      font-weight: bold;
+    }
+    #s7{
+      text-transform: uppercase;
+      text-decoration: underline;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    #d1{
+    position: absolute;
+    color: #b3ffb3;
+    text-shadow: 1px 3px 1px white;
+    left: 41vw;
+    border: 10px dashed black;
+    font-size: 2.5vw;
+    font-family: "Lucida Console", Monaco, monospace;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 1.6;
+    text-decoration: underline;
+    z-index: -1;
+    opacity: 0.7;
+    }
+    #d2{
+    position: absolute;
+    color: #ccffff;
+    text-shadow: 1px -2px 1px white;
+    top: 145px;
+    left: 2vw;
+    font-size: 2.5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 300%;
+    word-spacing: 5px;
+    z-index: 1;
+    opacity: 0.5;
+    }
+    #d3{
+    position: absolute;
+    color: #ff8c1a;
+    text-shadow: 1px -2px 1px white;
+    top: 160px;
+    left: 2vw;
+    font-size: 2.5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 300%;
+    word-spacing: 5px;
+    z-index: 2;
+    opacity: 0.7;
+    }
+    #d4{
+    position: absolute;
+    color:  #cccc00;
+    text-shadow: 1px -2px 1px white;
+    top: 170px;
+    border: 10px solid black;
+    left: 2vw;
+    font-size: 2.5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 300%;
+    word-spacing: 5px;
+    z-index: 3;
+    opacity: 0.9;
+    }
+    #d5{
+    position: absolute;
+    color: #1ac6ff;
+    text-shadow: 2px -5px 2px white;
+    border: 10px double black;
+    top: 166px;
+    right: -67vw;
+    font-size: 2.5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    letter-spacing: -1px;
+    line-height: 1.6;
+    word-spacing: 5px;
+    z-index: 20;
+    opacity: 0.9;
+    }
+    #d6{
+    position: absolute;
+    color: #f0f000;
+    text-shadow: 2px -3px 2px white;
+    border: 30px double black;
+    right: -120vw;
+    font-size: 2.5vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    letter-spacing: -1px;
+    line-height: 1.6;
+    word-spacing: 5px;
+    z-index: 20;
+    opacity: 0.9;
+    }
+    #d7{
+    position: absolute;
+    color: #00fff0;
+    background-color: black;
+    text-shadow: 2px -3px 2px blue;
+    border: 21px solid white;
+    left: 9vw;
+    top: 169vh;
+    font-size: 2vw;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: left;
+    letter-spacing: -1px;
+    line-height: 1.6;
+    word-spacing: 5px;
+    z-index: 20;
+    opacity: 0.9;
+    }
+
+    </style>
+  </head>
+  <body>
+  <div id=d1><span id=s1>Poetry Day With Mixed Emotions!</span><br>
+  I am presenting to you all a variety of poems (silly & sad ones)!</div>
+  <div id=d2><span id=s2>Limerick #1: "Old Man Bill"</span><br>
+There is a very Old Man named Bill,<br>
+Who always goes out and likes to chill.<br>
+Once, he felt a cold breeze,<br>
+This caused Old Bill to freeze.<br>
+And now, for cold he has to take a pill.<br></div>
+<div id=d3><span id=s3>Limerick #2: A French friend</span><br>
+My funny and fancy friend came from France.<br>
+He was singing and trying to dance.<br>
+But, he fell on the floor.<br>
+His yell was a loud roar.<br>
+Now medication costs him some finance.<br></div>
+
+
+<div id=d4><span id=s4><a id=l1 href="https://www.poetry4kids.com/lessons/how-to-write-a-limerick/">Limerick #3:</a> Lazy Sister</span><br>
+  My elder cousin is very lazy.<br>
+  She ate chips crunch, champ, crunch like crazy,<br>
+  	She drank a lot of <a id=l2 href="https://www.ohhowcivilized.com/green-tea/">tea,</a><br>
+  	While watching the TV.<br>
+  She had to pee although she was dozy.<br></div>
+  <div id=d5><span id=s5>The Villanelle: “The Loss”</span><br>
+    I can never forget that dark and doomy day.<br>
+That incident will always remain.<br>
+The day my most lovable pet passed away.<br>
+
+I cried for hours with dismay.<br>
+And then the sky started to <a id=l3 href="https://www.oysterenglish.com/raining-cats-and-dogs.html">rumble and rain.</a><br>
+I can never forget that dark and doomy day.<br>
+
+Now, I have no one to play.<br>
+Memories haunt, as ghosts of pain.<br>
+The day my most lovable pet passed away.<br>
+
+Overcoming this situation was a delay.<br>
+We decided not to have a pet again and I felt like a lonely and lost train.<br>
+I can never forget that dark and doomy day.<br>
+
+Eventually, I realized death is the final way.<br>
+So, live every moment and do not have a constrain.<br>
+The day my most lovable pet passed away.<br>
+
+In this world, no one will have a permanent stay.<br>
+I felt as if my love and emotion was water flowing down the drain.<br>
+I can never forget that dark and doomy day.<br>
+The day my most lovable pet passed away.</div>
+
+<div id=d6><span id=s6><a href=second_page.html>Click here</a></span> to go to the next and final webpage!</div>
+<div id=d7><span id=s7><a href=first_page.html>Click here</a></span><br>
+  To go back to the previous webpage!<br></div>
+<img id=i5 src="SadGIF.gif">
+<img id=i4 src="LaughGIF.gif">
+<img id=i3 src="Sad_emoji.png">
+<img id=i2 src="happy_emoji.png">
+</body>
+</body>
+</html>
